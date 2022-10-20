@@ -57,7 +57,7 @@ locals {
 }
 
 module "deepmerge" {
-  source  = "Invicton-Labs/deepmerge/null"
+  source  = "Kalepa/deepmerge/null"
   maps = [
     local.map1,
     local.map2,
